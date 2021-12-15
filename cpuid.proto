@@ -1,0 +1,19 @@
+syntax = "proto2";
+
+package cpuid;
+
+message Implementer {
+  optional string id = 1;
+  optional string name = 2;
+}
+
+message Part {
+  optional string implementer_id = 1;
+  optional string id = 2;
+  optional string name = 3;
+}
+
+message Database {
+  repeated Implementer implementer = 1;
+  repeated Part part = 2;
+}
