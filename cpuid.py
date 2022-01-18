@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""cpuid.py module description."""
+"""cpuid.py: A parser for ARM-related cpuid register values."""
 
 
 import argparse
@@ -38,10 +38,6 @@ default_values = {
 }
 
 
-# create poker evaluator object
-# p = PokerHand()
-
-
 def do_something(options):
     cpuids = read_cpudatabase()
 
@@ -59,7 +55,8 @@ def do_something(options):
             elif 'CPU part' in line:
                 cpu_part = '0x%03x' % int(line[10:], 16)
                 try:
-                    line += ' (%s)' % cpuids[cpu_implementer]['part'][cpu_part]['name']
+                    line += ' (%s)' % cpuids[cpu_implementer]['part'][
+                                             cpu_part]['name']
                 except KeyError:
                     line += ' (unknown)'
             lines.append(line)
