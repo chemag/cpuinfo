@@ -106,12 +106,12 @@ part { implementer_id: "0x51" id: "0x06f" name: "Krait" }
 part { implementer_id: "0x51" id: "0x201" name: "Kryo" }
 part { implementer_id: "0x51" id: "0x205" name: "Kryo" }
 part { implementer_id: "0x51" id: "0x211" name: "Kryo" }
-part { implementer_id: "0x51" id: "0x800" name: "cortex-a73 (Falkor V1/Kryo)" }
-part { implementer_id: "0x51" id: "0x801" name: "cortex-a73 (Kryo V2)" }
-part { implementer_id: "0x51" id: "0x802" name: "cortex-a75" }
-part { implementer_id: "0x51" id: "0x803" name: "cortex-a75" }
-part { implementer_id: "0x51" id: "0x804" name: "cortex-a76" }
-part { implementer_id: "0x51" id: "0x805" name: "cortex-a76" }
+part { implementer_id: "0x51" id: "0x800" name: "cortex-a73 (Kryo 2xx Gold)" }
+part { implementer_id: "0x51" id: "0x801" name: "cortex-a73 (Kryo 2xx Silver)" }
+part { implementer_id: "0x51" id: "0x802" name: "cortex-a75 (Kryo 3xx Gold)" }
+part { implementer_id: "0x51" id: "0x803" name: "cortex-a75 (Kryo 3xx Silver)" }
+part { implementer_id: "0x51" id: "0x804" name: "cortex-a76 (Kryo 4xx Gold)" }
+part { implementer_id: "0x51" id: "0x805" name: "cortex-a76 (Kryo 4xx/5xx Silver)" }
 part { implementer_id: "0x51" id: "0xc00" name: "Falkor" }
 part { implementer_id: "0x51" id: "0xc01" name: "Saphira" }
 
