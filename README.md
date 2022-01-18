@@ -31,5 +31,17 @@ Some databases containing information about the implementer and part IDs are:
 
 # 2. Operation
 
+```
+$ adb shell cat /proc/cpuinfo | ./cpuid.py - -
+...
+processor : 7
+BogoMIPS  : 38.00
+Features  : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x51 (Qualcomm)
+CPU architecture: 8
+CPU variant : 0xf
+CPU part  : 0x804 (cortex-a76 (Kryo 4xx Gold))
+CPU revision  : 14
+```
 
 
